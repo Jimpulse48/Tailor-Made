@@ -1,0 +1,68 @@
+html{
+    font-size: 16px;
+    background-color: #BFBFBF;
+}
+
+/* ========== HEADER ========== */
+.nav{
+    border-bottom: 1px solid #404040;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    background-color: #E6E6E6;
+}
+
+.nav-logo{
+    font-size: 2rem;
+    /* FANCY LOGO FONT HERE SOMETHING CURSIVE*/
+}
+
+.nav li{
+    display: inline-block;
+    margin-right: 1.25rem;
+    font-size: 1.125rem;
+}
+
+.header-pad{
+    height: 3.0625rem;
+}
+
+/* ========== HERO/MISSION ========== */
+
+.hero{
+    background-image: url(../images/hero.png);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+}
+
+.mission{
+    width: 100%;
+    height: 5rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission h1{
+    font-size: 5rem;
+    color: white;
+    /* SOME SERIF FONT */
+}
+
+.mission h2{
+    font-size: 1.75rem;
+    color: whitesmoke;
+    font-style: italic;
+    /* SOME SANS-SERIF FONT */
+}
